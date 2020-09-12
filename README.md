@@ -1,1 +1,1 @@
-# pca-lista1
+Listinhas de programação de computadores e algoritmos

@@ -1,14 +1,17 @@
 #include <stdio.h>
+
 float volume(float r);
 
-void main(){
-    float raio;
+int main(){
+    float raio, aux;
     scanf("%f",&raio);
-    volume(raio);
+    aux = volume(raio);
+    printf("O volume é: %.1f", &aux);
+    return 0;
 }
 
-void volume(float r){
-    float vol;
-    vol = ((4.0/3.0)*3.14*r*r*r);
-    printf ("%f\n",vol);
+float volume(float r){
+    float result;
+    result = ((4.0/3.0)*3.14*r*r*r);
+    return result;
 }

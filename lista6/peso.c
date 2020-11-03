@@ -7,7 +7,7 @@ int main(){
     char y;
     scanf("%f\n%c", &x,&y);
     peso = peso_ideal(x,y);
-    printf("%.1f\n", peso);
+    printf("Seu peso ideal é: %.1f\n", peso);
     return 0;
 }
 

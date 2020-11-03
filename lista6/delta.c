@@ -4,7 +4,7 @@
 float delta(float a, float b, float c);
 
 int main(){
-    float a,b,c,x,r,P,S;
+    float a,b,c,x,r,p,s;
     scanf("%f\n %f\n %f", &a, &b, &c);
     x = delta(a,b,c);
     r = sqrt(x);
@@ -14,10 +14,10 @@ int main(){
     } else if (x < 0.00){
         printf("Impossivel calcular\n");
     }else{
-        P = ((-b) + r)/(2.00*a);
-        S = ((-b) - r)/(2.00*a);
-        printf("R1 = %.5lf\n",P);
-        printf("R2 = %.5lf\n",S);
+        p = ((-b) + r)/(2.00*a);
+        s = ((-b) - r)/(2.00*a);
+        printf("R1 = %.5lf\n",p);
+        printf("R2 = %.5lf\n",s);
     }
     return 0;
 }
